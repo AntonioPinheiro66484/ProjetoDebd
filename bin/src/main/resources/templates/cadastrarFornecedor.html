@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<h1> Cadastrar Fornecedor </h1> <img th:src="@{/images/cps.png}" />
+</body>
+<footer>
+    <div class="container pt-5 pb-3">
+        <div class="row">
+            <div class="col-sm">
+                <h5>Atendimento</h5>
+                <ul class="list-unstyled text-small">
+                    <li><span class="text-muted">(11) 1234-5678</span></li>
+                    <li><span class="text-muted">(11) 99999-9999</span></li>
+                    <li><span class="text-muted">squirreltech@gmail.com</span></li>
+                    <li><span class="fw-bold">Horários de Funcionamento</span></li>
+                    <li><span class="text-muted">Segunda a Sexta - 8:00 as 18:00</span></li>
+                    <li><span class="text-muted">Sábado - 8:00 as 15:00</span></li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h5>Institucional</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Como comprar</a></li>
+                    <li><a class="text-muted" href="#">Pagamento</a></li>
+                    <li><a class="text-muted" href="#">Segurança</a></li>
+                    <li><a class="text-muted" href="#">Envio</a></li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h5>Formas de Pagamentos</h5>
+                <ul class="list-unstyled text-small fs-60">
+                    <li class="d-flex justify-content-center">
+                        
+                        <a th:href="@{/}"><img th:src="@{/images/boleto-logo.png}" width="100" alt="logo image"></a>
+                        <a th:href="@{/}"><img th:src="@{/images/elo-logo.png}" width="100" alt="logo image"></a>
+                        
+                    <li>
+                    <li class="d-flex justify-content-center">
+                        <i class="fab fa-cc-visa fs-60 me-2"></i>
+                        <i class="fab fa-cc-mastercard fs-80"></i>
+                    </li>
+                    <li class="d-flex justify-content-center">
+                        <a th:href="@{/}"><img th:src="@{/images/pagseguro-logo.png}" width="100" alt="logo image"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h5>Segurança e Certificações</h5>
+                <ul class="list-unstyled text-small">
+                    <li class="d-flex justify-content-center">
+                        <a th:href="@{/}"><img th:src="@{/images/site-blindado-logo.png}" width="100" alt="logo image"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm">
+                <h5>Redes Sociais</h5>
+                <ul class="list-unstyled text-small">
+                    <li>
+                        <i class="text-muted fab fa-facebook-square cursor-pointer fs-30 me-2"></i>
+                        <i class="text-muted fab fa-instagram cursor-pointer fs-30 me-2"></i>
+                        <i class="text-muted fab fa-twitter-square cursor-pointer fs-30 me-2"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-center">
+            <div class="text-body fw-light">CNPJ: 01.234.567/0001-00 | IE: 76.543.21-0</div>
+        </div>
+    </div>
+</footer>
+</html>
